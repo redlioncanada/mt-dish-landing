@@ -30,8 +30,8 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                         masthead: {
                             enabled: true,
                             image: "./public/images/refer-landing-masthead-1.jpg",
-                            alt: "test",
-                            title: "Laundry"
+                            alt: "Masthead image",
+                            title: "Dishwashers"
                         },
                         banner: {
                             enabled: true,
@@ -97,14 +97,14 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                         },
                         morefeatures: {
                             enabled: true,
-                            title: "Get more from Maytag<sup>&reg;</sup> laundry pairs",
+                            title: "Get more from Maytag<sup>&reg;</sup> dishwashers",
                             features: [
                                 {
-                                    title: "Vibration Control Guarantee",
-                                    image: "./public/images/more-features-2.jpg",
-                                    link: "http://www.maytag.ca/other-assets/en_CA/pdf/2016_Maytag_VIBRATION_FREE_LIMITED%20GUARANTEE_EN.pdf",
+                                    title: "Fingerprint Resistant Stainless Steel",
+                                    image: "./public/images/more-features-1.jpg",
+                                    link: "",
                                     alt: "test",
-                                    text: "We’re so confident Maytag laundry pairs are built to tackle tough loads for years, we’ve backed them with a 10-year limited parts warranty on the drive motor, stainless steel wash basket, and dryer drum*<br/>*visit maytag.ca for warranty details.",
+                                    text: "",
                                     cta: "",
                                     analytics: {
                                         category: "@category",
@@ -113,11 +113,11 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    title: "10-Year Warranty",
-                                    image: "./public/images/more-features-1.jpg",
-                                    link: "http://www.maytag.ca/en_CA/2_3_147/jump-page_ten-year-warranty.content.html",
+                                    title: "The most Powerful Motor",
+                                    image: "./public/images/more-features-2.jpg",
+                                    link: "",
                                     alt: "test",
-                                    text: "At Maytag we don’t just talk about dependability, we back it up.",
+                                    text: "",
                                     cta: "",
                                     analytics: {
                                         category: "@category",
@@ -126,9 +126,9 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    title: "Additional Accessories",
+                                    title: "PowerDry",
                                     image: "./public/images/more-features-3.jpg",
-                                    link: "http://www.maytag.ca/en_CA/Laundry-1/Laundry_Laundry_Appliances_Laundry_Pedestals-3/102290063/",
+                                    link: "",
                                     alt: "test",
                                     text: "",
                                     cta: "",
@@ -147,12 +147,12 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     id: 'TyH7i8lmvyM',
                                     thumb: './public/images/video-select-1.jpg',
-                                    title: 'Maytag<sup><sup>&reg;</sup></sup> Washers - PowerWash<sup><sup>&trade;</sup></sup> Cycle',
+                                    title: 'Maytag Dishwashers – What’s Inside Matters',
                                     alt: "test",
-                                    ctaTitle: 'Maytag<sup><sup>&reg;</sup></sup> PowerWash<sup><sup>&reg;</sup></sup> System',
+                                    ctaTitle: 'Maytag Dishwasers – What’s Inside Matters',
                                     ctaText: 'Watch Video',
                                     ctaBackground: "./public/images/button-background.png",
-                                    desc: "The Maytag<sup>&reg;</sup> PowerWash<sup><sup>&reg;</sup></sup> System works three ways to give you one great clean. Optimal Dispensers and Power Spray team together to automatically release detergent at the right time, and give clothes a more concentrated treatment for difficult stains. While the PowerWash<sup>&reg;</sup> Cycle uses extra cleaning action to fight your worst stains in a single wash.",
+                                    desc: "Every dish you put inside your dishwasher matters. That's why everything that goes into making a Maytag<sup>&reg;</sup> dishwasher matters - American engineering, durable materials, reliable parts, and powerful performance.",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
@@ -162,12 +162,12 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     id: 'FuBeNRcpM6Q',
                                     thumb: './public/images/video-select-2.jpg',
-                                    title: 'Maytag<sup><sup>&reg;</sup></sup> Laundry - Optimal Dose Dispensers',
+                                    title: 'Maytag Dishwashers – PowerBlast<sup>&trade;</sup> Cycle',
                                     alt: "test",
-                                    ctaTitle: 'Maytag<sup><sup>&reg;</sup></sup> Laundry - Optimal Dose Dispensers',
+                                    ctaTitle: 'Maytag Dishwashers – PowerBlast<sup>&trade;</sup> Cycle',
                                     ctaText: 'Watch Video',
                                     ctaBackground: "./public/images/button-background.png",
-                                    desc: "Take the guesswork out of doing your laundry. Maytag's Optimal Dose Dispenser automatically adds just the right amount of detergent at just the right time for an outstanding cleaning performance. And, because it stores enough high efficiency detergent for up to twelve loads of laundry, you won’t have to add detergent with every load*.<br/><br/>*based on an 8lb load.",
+                                    desc: "The Maytag<sup>&reg;</sup> PowerBlast<sup>&trade;</sup> Cycle can handle whatever you throw at it - from your messiest pans to your favourite glassware. First the PowerBlast<sup>&trade;</sup> Cycle uses high-pressure spray jets and increased temperature to remove tough, stuck-on food. Then, it finishes the job with hot steam to make sure your dishes come out sparkling just the way you like them.",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
@@ -177,12 +177,12 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     id: 'S_nQgte6bP0',
                                     thumb: './public/images/video-select-3.jpg',
-                                    title: 'Maytag<sup><sup>&reg;</sup></sup> Washers & Dryers tackle your Tough Loads | Maytag<sup><sup>&reg;</sup></sup> Man',
+                                    title: 'Maytag Dishwashers – Stainless Steel Chopper',
                                     alt: "test",
-                                    ctaTitle: 'Maytag<sup><sup>&reg;</sup></sup> All Your Things',
+                                    ctaTitle: 'Maytag Dishwashers – Stainless Steel Chopper',
                                     ctaText: 'Watch Video',
                                     ctaBackground: "./public/images/button-background.png",
-                                    desc: "Maytag washers and dryers team up to give your laundry a truly dependable clean.",
+                                    desc: "Skip the scraping and go straight to the dishwasher. The Maytag<sup>&reg;</sup> 4-blade stainless steel chopper has the power to get rid of stuck-on food. It disintegrates the bits of food that come off your plates so they don't end up recirculating and sticking to your dishes and because our system doesn't rely on a filter there's nothing to clean up afterwards.",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
@@ -193,10 +193,10 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                         },
                         productselector: {
                             enabled: true,
-                            title: 'Built to clean tough loads in<br/>two powerful configurations',
+                            title: 'Get more from Maytag<sup>&reg;</sup> Dishwashers',
                             nav: {
                                 text: 'See<br/>All',
-                                link: 'http://cuat.maytag.ca/en_CA/Laundry-1/Laundry_Laundry_Appliances_Washers-3/102290050/',
+                                link: '#',
                                 analytics: {
                                     category: "@category",
                                     action: "Clicked Laudry Configuration",
@@ -205,13 +205,13 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             },
                             products: [
                                 {
-                                    image: "./public/images/products/top_load.png",
-                                    thumb: "./public/images/products/top_load-small.png",
-                                    title: "High Efficiency<br/>Top-Load",
-                                    alt: "High Efficiency Top-Load",
-                                    desc: "Looking for the best performance? This traditional style washer has come a long way, now offering the Best Cleaning in the Industry driven by the PowerWash<sup><sup>&reg;</sup></sup> System! Available in medium to mega capacity up to 7.1 cu. Ft. I.E.C., the High-Efficiency Top Load laundry pairs allow you to get more laundry done at once. In addition, look for our ENERGY STAR<sup>&reg;</sup> Qualified washers and dryers to save in lifetime water and energy costs – all while providing a powerfully deep clean for every type of load.",
-                                    link: "http://www.maytag.ca/en_CA/Laundry-1/Laundry_Laundry_Appliances_Washers-3/102290050+4294965946/",
-                                    id: "top-load",
+                                    image: "./public/images/products/top_controls.jpg",
+                                    thumb: "./public/images/products/top_controls-small.jpg",
+                                    title: "Top<br/>Controls",
+                                    alt: "Top Controls",
+                                    desc: "Hidden controls at the top provide a premium design, with a sturdy handle for a commercial look and feel that looks great in any kitchen. The end of cycle indicator light lets you know what stage of the wash cycle your dishes are in, so you’ll know when they’re done. Also available in fingerprint resistant stainless steel.",
+                                    link: "#",
+                                    id: "top-controls",
                                     ctaText: "Learn More",
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
@@ -222,13 +222,30 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/front_load.png",
-                                    thumb: "./public/images/products/front_load-small.png",
-                                    title: "High Efficiency<br/>Front-Load",
-                                    alt: "High Efficiency Front-Load",
-                                    desc: "This contemporary style provides space saving flexibility, while also boasting the Best Cleaning in the Industry driven by the PowerWash<sup><sup>&reg;</sup></sup> System. With Advanced Vibration Control<sup><sup>&trade;</sup></sup> Plus and optional stack kits, this configuration allows for quiet placement in smaller spaces. ENERGY STAR<sup><sup>&reg;</sup></sup> Qualified, High-Efficiency Front-Load washers and dryers mean you’re saving on water and energy costs and still getting a clean you can count on.",
-                                    link: "http://www.maytag.ca/en_CA/Laundry-1/Laundry_Laundry_Appliances_Washers-3/102290050+4294965947/",
-                                    id: "front-load",
+                                    image: "./public/images/products/top_controls_wph.jpg",
+                                    thumb: "./public/images/products/top_controls_wph-small.jpg",
+                                    title: "Top Controls with<br/>Pocket Handle",
+                                    alt: "Top Controls with Pocket Handle",
+                                    desc: "Controls are hidden at the top for a sleek design finish that looks great in any kitchen. The Pocket Handle provides a more traditional style handle that allows for simple, easy access to your dishes. Also available in fingerprint resistant stainless steel.",
+                                    link: "#",
+                                    id: "top-controls-pocket-handle",
+                                    ctaText: "Learn More",
+                                    ctaBackground: "./public/images/button-background.png",
+                                    analytics: {
+                                        category: "@category",
+                                        action: "Clicked Laundry Configuration",
+                                        label: "High Efficiency Front-Load",
+                                        learnMore: 'Learn More'
+                                    }
+                                },
+                                {
+                                    image: "./public/images/products/front_controls.jpg",
+                                    thumb: "./public/images/products/front_controls-small.jpg",
+                                    title: "Front<br/>Controls",
+                                    alt: "Front Controls",
+                                    desc: "This traditional style is designed with controls on the front, with a seamless picket handle that fits in any home. The end-of-cycle countdown keeps track of the time remaining in the wash cycle so you know the precise time before your dishes are sparkling again.",
+                                    link: "#",
+                                    id: "front-controls",
                                     ctaText: "Learn More",
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {

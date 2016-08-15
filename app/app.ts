@@ -23,7 +23,7 @@ import {Footer} from './landing.footer'
 
 
 @Component({
-    selector: 'rl-mt-laundry-landing',
+    selector: 'rl-mt-dish-landing',
     template: `
 	    <masthead class="{{language}}"></masthead>
 		<features class="{{language}}"></features>
