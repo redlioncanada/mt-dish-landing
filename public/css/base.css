@@ -609,6 +609,29 @@ rl-mt-dish-landing {
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease; }
+    rl-mt-dish-landing features h2 {
+      color: #002e5a !important;
+      font-size: 3em;
+      text-align: center;
+      font-weight: 800;
+      line-height: 1em;
+      width: 100%;
+      margin-top: 20px;
+      display: inline-block;
+      padding: 0 10px;
+      margin-bottom: 20px; }
+      @media screen and (max-width: 1366px) {
+        rl-mt-dish-landing features h2 {
+          font-size: 2em;
+          margin-top: 30px; } }
+      @media screen and (max-width: 820px) {
+        rl-mt-dish-landing features h2 {
+          line-height: 30px !important;
+          margin-bottom: 20px !important;
+          margin-top: 10px; } }
+      @media screen and (max-width: 479px) {
+        rl-mt-dish-landing features h2 {
+          line-height: normal; } }
     rl-mt-dish-landing features .row {
       width: 100%;
       height: 235px;
@@ -814,11 +837,8 @@ rl-mt-dish-landing {
       padding-bottom: 20px;
       -webkit-transition: all 1s;
       transition: all 1s; }
-      rl-mt-dish-landing product-selector product-slide #freezers img {
-        margin-left: -50px; }
-        @media screen and (max-width: 820px) {
-          rl-mt-dish-landing product-selector product-slide #freezers img {
-            margin: 0 auto; } }
+      rl-mt-dish-landing product-selector product-slide learn-more-button {
+        line-height: 31px; }
       @media screen and (max-width: 820px) {
         rl-mt-dish-landing product-selector product-slide {
           width: 100%; } }
@@ -922,8 +942,8 @@ rl-mt-dish-landing {
       @media screen and (max-width: 820px) {
         rl-mt-dish-landing product-selector .rl-wp-lndng-fridge img {
           height: 200px;
-          margin-left: 50%;
-          transform: translateX(-50%);
+          margin: 0 auto;
+          display: block;
           width: initial; } }
     rl-mt-dish-landing product-selector .rl-wp-lndng-fridge-desc {
       position: relative;
@@ -973,15 +993,28 @@ rl-mt-dish-landing {
           width: 33%; } }
       rl-mt-dish-landing product-selector-nav .wp-refer-landing-product img, rl-mt-dish-landing product-selector-nav .see-all img {
         width: 100%; }
-    rl-mt-dish-landing product-selector-nav .wp-refer-landing-product > img {
-      -webkit-transition: all 0.2s ease;
-      -moz-transition: all 0.2s ease;
-      -o-transition: all 0.2s ease;
-      transition: all 0.2s ease; }
+      rl-mt-dish-landing product-selector-nav .wp-refer-landing-product > img, rl-mt-dish-landing product-selector-nav .see-all > img {
+        -webkit-transition: opacity 0.2s ease;
+        -moz-transition: opacity 0.2s ease;
+        -o-transition: opacity 0.2s ease;
+        transition: opacity 0.2s ease;
+        -webkit-backface-visibility: hidden; }
     rl-mt-dish-landing product-selector-nav .wp-refer-landing-product:not(.selected) > img {
       opacity: 0.6; }
     rl-mt-dish-landing product-selector-nav .wp-refer-landing-product:not(.selected) .wp-refer-landing-button {
       color: #898989; }
+    rl-mt-dish-landing product-selector-nav .wp-refer-landing-product:hover > img {
+      opacity: 0.75; }
+    rl-mt-dish-landing product-selector-nav .wp-refer-landing-product:hover .wp-refer-landing-button {
+      background-color: #002e5a !important; }
+    rl-mt-dish-landing product-selector-nav .wp-refer-landing-product:hover .wp-refer-landing-button p {
+      color: #FFFFFF !important; }
+    rl-mt-dish-landing product-selector-nav .wp-refer-landing-product.selected > img {
+      opacity: 1; }
+    rl-mt-dish-landing product-selector-nav .wp-refer-landing-product.selected .wp-refer-landing-button {
+      background-color: #002e5a; }
+    rl-mt-dish-landing product-selector-nav .wp-refer-landing-product.selected .wp-refer-landing-button p {
+      color: #FFFFFF; }
     rl-mt-dish-landing product-selector-nav .wp-refer-landing-button {
       font-family: Arial Black, Arial Bold, sans-serif;
       font-weight: 200;
@@ -1011,16 +1044,6 @@ rl-mt-dish-landing {
       @media screen and (max-width: 600px) {
         rl-mt-dish-landing product-selector-nav .wp-refer-landing-button p {
           font-weight: 100; } }
-    rl-mt-dish-landing product-selector-nav .wp-refer-landing-product:hover > img {
-      opacity: 0.75; }
-    rl-mt-dish-landing product-selector-nav .wp-refer-landing-product:hover .wp-refer-landing-button {
-      background-color: #002e5a !important; }
-    rl-mt-dish-landing product-selector-nav .wp-refer-landing-product:hover .wp-refer-landing-button p {
-      color: #FFFFFF !important; }
-    rl-mt-dish-landing product-selector-nav .wp-refer-landing-product.selected .wp-refer-landing-button {
-      background-color: #002e5a; }
-    rl-mt-dish-landing product-selector-nav .wp-refer-landing-product.selected .wp-refer-landing-button p {
-      color: #FFFFFF; }
     rl-mt-dish-landing product-selector-nav .see-all {
       height: 218px;
       margin-left: 30px;
@@ -1054,8 +1077,8 @@ rl-mt-dish-landing {
         rl-mt-dish-landing product-selector-nav .see-all {
           display: initial;
           padding: initial;
-          width: 25%;
-          height: 142px;
+          width: 22%;
+          height: 242px;
           margin-left: 15px; }
           rl-mt-dish-landing product-selector-nav .see-all div {
             margin-top: initial;
@@ -1146,6 +1169,9 @@ rl-mt-dish-landing {
         rl-mt-dish-landing more-features h2 {
           font-size: 2em;
           margin: 6px 0 15px 0; } }
+      @media (max-width: 820px) {
+        rl-mt-dish-landing more-features h2 {
+          font-size: 2em; } }
     rl-mt-dish-landing more-features more-features-feature {
       padding: 0 5px; }
     rl-mt-dish-landing more-features more-features-feature:first-of-type {

@@ -4,6 +4,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var config = require('./package.json');
 var replace =require('gulp-replace');
+var yargs = require('yargs').argv;
 var concat = require('gulp-concat');
 var mergeStream = require('merge-stream');
 var foreach = require('gulp-foreach');
@@ -20,7 +21,7 @@ gulp.task('sass:watch', function () {
 });
 
 var paths = [];
-gulp.task('cuat', ['packNodeModules'], function() {
+gulp.task('compile', ['packNodeModules'], function() {
 	var base = config.name;
 	var nodeModulesUrl = 'https://wpc-stage.com/production/whirlpool/refer-landing'
 	var tasks  = []
@@ -72,6 +73,13 @@ gulp.task('cuat', ['packNodeModules'], function() {
 
 	return mergeStream(tasks)
 });
+
+gulp.task('cuat', ['compile'], function() {
+	if ('save' in yargs) {
+		return gulp.src('./cuat/**/*')
+			.pipe(gulp.dest(yargs.save+'/cuat'))
+	}
+})
 
 gulp.task('packNodeModules', function() {
 	return gulp.src('index.html')

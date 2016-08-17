@@ -2,6 +2,33 @@ $featureButtonHeight: 235px;
 $featureButtonHeightMobile: 220px;
 
 features {
+    h2{
+        color: #002e5a !important;
+        font-size: 3em;
+        text-align: center;
+        font-weight: 800;
+        line-height: 1em;
+        width: 100%;
+        margin-top: 20px;
+        display: inline-block;
+        padding: 0 10px;
+        margin-bottom: 20px;
+
+        @media screen and (max-width: 1366px) {
+            font-size: 2em;
+            margin-top: 30px;
+        }
+
+        @media screen and (max-width: $mobileBreakpoint) {
+            line-height: 30px !important;
+            margin-bottom: 20px !important;
+            margin-top: 10px;
+        }
+
+        @media screen and (max-width: 479px) {
+            line-height: normal;
+        }
+    }
     @include transition(0.5s);
     .row{
         width: 100%;

@@ -47,6 +47,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                         },
                         features: {
                             enabled: true,
+                            title: "Get started here",
                             features: [
                                 {
                                     image: "./public/images/refer-landing-shopping-cart.png",
@@ -193,7 +194,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                         },
                         productselector: {
                             enabled: true,
-                            title: 'Get more from Maytag<sup>&reg;</sup> Dishwashers',
+                            title: 'Dishwasher options you can depend on',
                             nav: {
                                 text: 'See<br/>All',
                                 link: '#',

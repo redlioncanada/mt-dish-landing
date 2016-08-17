@@ -52,12 +52,8 @@ product-selector {
         -webkit-transition: all 1s;
         transition: all 1s;
 
-        #freezers img {
-            margin-left: -50px;
-
-            @media screen and (max-width: $mobileBreakpoint) {
-                margin: 0 auto;
-            }
+        learn-more-button {
+            line-height: 31px;
         }
 
         @media screen and (max-width: $mobileBreakpoint) {
@@ -183,8 +179,8 @@ product-selector {
 
         @media screen and (max-width: $mobileBreakpoint) {
             height: 200px;
-            margin-left: 50%;
-            transform: translateX(-50%);
+            margin: 0 auto;
+            display: block;
             width: initial;
         }
     }
@@ -245,11 +241,13 @@ product-selector-nav {
         img {
             width: 100%;
         }
-    }
 
-    .wp-refer-landing-product{
         > img {
-            @include transition(0.2s);
+            -webkit-transition: opacity 0.2s ease;
+            -moz-transition: opacity 0.2s ease;
+            -o-transition: opacity 0.2s ease;
+            transition: opacity 0.2s ease;
+            -webkit-backface-visibility: hidden;
         }
     }
 
@@ -260,6 +258,34 @@ product-selector-nav {
 
         .wp-refer-landing-button {
             color: $selectorTextColor;
+        }
+    }
+
+    .wp-refer-landing-product:hover {
+        > img {
+            opacity: 0.75;
+        }
+
+        .wp-refer-landing-button {
+            background-color: $selectorHighlightedBackgroundColor !important;
+        }
+
+        .wp-refer-landing-button p {
+            color: $selectorHighlightedTextColor !important;
+        }
+    }
+
+    .wp-refer-landing-product.selected {
+        > img {
+            opacity: 1;
+        }
+
+        .wp-refer-landing-button {
+            background-color: $selectorHighlightedBackgroundColor;
+        }
+
+        .wp-refer-landing-button p {
+            color: $selectorHighlightedTextColor;
         }
     }
 
@@ -292,30 +318,6 @@ product-selector-nav {
             p {
                 font-weight: 100;
             }
-        }
-    }
-
-    .wp-refer-landing-product:hover {
-        > img {
-            opacity: 0.75;
-        }
-
-        .wp-refer-landing-button {
-            background-color: $selectorHighlightedBackgroundColor !important;
-        }
-
-        .wp-refer-landing-button p {
-            color: $selectorHighlightedTextColor !important;
-        }
-    }
-
-    .wp-refer-landing-product.selected {
-        .wp-refer-landing-button {
-            background-color: $selectorHighlightedBackgroundColor;
-        }
-
-        .wp-refer-landing-button p {
-            color: $selectorHighlightedTextColor;
         }
     }
 
@@ -355,8 +357,8 @@ product-selector-nav {
         @media screen and (max-width: $mobileBreakpoint) {
             display: initial;
             padding: initial;
-            width: 25%;
-            height: 142px;
+            width: 22%;
+            height: 242px;
             margin-left: 15px;
 
             div {

@@ -6,6 +6,7 @@ import {AppDataService} from './services/appdata.service'
 @Component({
     selector: 'features',
     template: `
+        <h2>{{title}}</h2>
         <div class="row {{!enabled ? 'hide': ''}}">
             <feature-button *ngFor="#feature of featureButtons; #i=index" [timeline]="feature.timeline" [analytics]="feature.analytics" [btnIcon]= "feature.btnIcon" [btnTitle]= "feature.btnTitle" [btnRollOverCopy]="feature.btnRollOverCopy" [btnRollOverCTA]="feature.btnRollOverCTA" [btnAlt]="feature.btnAlt" [btnType]="feature.btnType" [btnLink]="feature.btnLink">
 
@@ -18,11 +19,13 @@ import {AppDataService} from './services/appdata.service'
 export class Features {
     public featureButtons:Array<FeatureModel> = new Array<FeatureModel>()
     private enabled: boolean
+    private title: string
 
     constructor(private appdata: AppDataService) {
         this.enabled = true
         var data = appdata.get()
         this.enabled = data.features.enabled
+        this.title = 'title' in data.features ? data.features.title : undefined
 
         for (var i in data.features.features) {
             var feature = data.features.features[i]
