@@ -800,6 +800,9 @@ rl-mt-dish-landing {
     -webkit-transition: all 1s;
     transition: all 1s;
     margin-bottom: 60px !important; }
+    @media (max-width: 667px) {
+      rl-mt-dish-landing product-selector {
+        margin-bottom: 20px !important; } }
     rl-mt-dish-landing product-selector h2 {
       font-size: 3em;
       text-align: center;
@@ -1086,6 +1089,11 @@ rl-mt-dish-landing {
           rl-mt-dish-landing product-selector-nav .see-all p {
             font-size: 1em;
             line-height: 15px; } }
+      @media screen and (max-width: 667px) {
+        rl-mt-dish-landing product-selector-nav .see-all {
+          width: 96.5%;
+          height: 100px;
+          margin: 6px 10px 0 6px; } }
   @media screen and (max-width: 479px) {
     rl-mt-dish-landing product-selector.fr product-slides {
       margin-top: 73px; } }
