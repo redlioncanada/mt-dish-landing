@@ -180,7 +180,8 @@ product-selector {
     }
     
     .rl-wp-lndng-fridge img{
-        width: 350px;
+        width: 270px;
+        padding: 4px 30px 0 30px;
 
         @media screen and (max-width: $mobileBreakpoint) {
             height: 200px;
@@ -327,7 +328,7 @@ product-selector-nav {
     }
 
     .see-all {
-        height: 218px;
+        height: 251px;
         margin-left: 30px;
         width: 20%;
         color: $selectorSeeAllColor;

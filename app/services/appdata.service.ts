@@ -15,6 +15,7 @@ export class AppDataService {
 			masthead: {
 				enabled: true,
 				image: "./public/images/refer-landing-masthead-1.jpg",
+				imageForeground: "./public/images/refer-landing-masthead-2.jpg",
 				alt: "Masthead image",
 				title: "Dishwashers"
 			},
@@ -41,7 +42,7 @@ export class AppDataService {
 						desc: "What to look for when buying",
 						ctaText: "Click Here",
 						ctaBackground: "./public/images/button-background.png",
-						link: "/other-assets/en_CA/pdf/MT-Laundry-Buying_Guide_EN.pdf",
+						link: "#",
 						type: "cart",
 						analytics: {
 							category: "@category",
@@ -56,7 +57,7 @@ export class AppDataService {
 						desc: "See what others are saying",
 						ctaText: "Click Here",
 						ctaBackground: "./public/images/button-background.png",
-						link: "http://www.maytag.ca/en_CA/2_3_90/jump-page_best-products.content.html",
+						link: "http://www.maytag.ca/en_CA/2_3_90/jump-page_best-products.content.html#Dishwashers",
 						type: "star",
 						analytics: {
 							category: "@category",
@@ -71,7 +72,7 @@ export class AppDataService {
 						desc: "Need help finding your appliance?",
 						ctaText: "Click Here",
 						ctaBackground: "./public/images/button-background.png",
-						link: "http://findmy.maytag.ca",
+						link: "http://findmy.maytag.ca/#/?category=Dishwashers",
 						type: "magnifier",
 						analytics: {
 							category: "@category",
@@ -86,11 +87,11 @@ export class AppDataService {
 				title: "Get more from Maytag<sup>&reg;</sup> dishwashers",
 				features: [
 					{
-						title: "Fingerprint Resistant Stainless Steel",
+						title: "Fingerprint Resistant",
 						image: "./public/images/more-features-1.jpg",
 						link: "",
 						alt: "test",
-						text: "",
+						text: "Fingerprint Resistant Stainless Steel exterior keeps your dishwasher looking as good on the outside as it works on the inside.",
 						cta: "",
 						analytics: {
 							category: "@category",
@@ -99,24 +100,24 @@ export class AppDataService {
 						}
 					},
 					{
-						title: "The most Powerful Motor",
+						title: "Most Powerful Motor on the Market*",
 						image: "./public/images/more-features-2.jpg",
 						link: "",
 						alt: "test",
-						text: "",
+						text: "Maytag<sup>®</sup> dishwashers feature the most powerful motor on the market.<sup>*</sup> From dried-on egg yolk to peanut butter, this motor can handle your dirtiest dishes.",
 						cta: "",
 						analytics: {
 							category: "@category",
 							action: "Clicked Get More From Your Laundry",
-							label: "10- Year Warranty"
+							label: "10-Year Warranty"
 						}
 					},
 					{
 						title: "PowerDry",
 						image: "./public/images/more-features-3.jpg",
-						link: "",
+						link: "http://www.maytag.ca/en_CA/Kitchen-1/Kitchen_Dishwashers_and_Kitchen_Cleaning_Dishwashers-3/102290003+112290195/",
 						alt: "test",
-						text: "",
+						text: "The PowerDry option reduces humidity inside the dishwasher, increasing drying power, making this our best drying dishwasher ever.",
 						cta: "",
 						analytics: {
 							category: "@category",
@@ -131,7 +132,7 @@ export class AppDataService {
 				title: "Built Better",
 				videos: [
 					{
-						id: 'TyH7i8lmvyM',
+						id: 'CCtdKj5v99Y',
 						thumb: './public/images/video-select-1.jpg',
 						title: 'Maytag Dishwashers – What’s Inside Matters',
 						alt: "test",
@@ -146,7 +147,7 @@ export class AppDataService {
 						}
 					},
 					{
-						id: 'FuBeNRcpM6Q',
+						id: 'mKQzCIOWLI8',
 						thumb: './public/images/video-select-2.jpg',
 						title: 'Maytag Dishwashers – PowerBlast<sup>&trade;</sup> Cycle',
 						alt: "test",
@@ -161,7 +162,7 @@ export class AppDataService {
 						}
 					},
 					{
-						id: 'S_nQgte6bP0',
+						id: 'MXS_UkL6bNI',
 						thumb: './public/images/video-select-3.jpg',
 						title: 'Maytag Dishwashers – Stainless Steel Chopper',
 						alt: "test",
@@ -182,7 +183,7 @@ export class AppDataService {
 				title: 'Dishwasher options you can depend on',
 				nav: {
 					text: 'See<br/>All',
-					link: '#',
+					link: 'http://www.maytag.ca/en_CA/Kitchen-1/Kitchen_Dishwashers_and_Kitchen_Cleaning_Dishwashers-3/102290003/',
 					analytics: {
 						category: "@category",
 						action: "Clicked Laudry Configuration",
@@ -195,8 +196,8 @@ export class AppDataService {
 						thumb: "./public/images/products/top_controls-small.jpg",
                         title: "Top<br/>Controls",
                         alt: "Top Controls",
-                        desc: "Hidden controls at the top provide a premium design, with a sturdy handle for a commercial look and feel that looks great in any kitchen. The end of cycle indicator light lets you know what stage of the wash cycle your dishes are in, so you’ll know when they’re done. Also available in fingerprint resistant stainless steel.",
-                        link: "#",
+                        desc: "Hidden controls at the top provide a premium design, with a sturdy handle for a commercial look and feel that looks great in any kitchen. The end of cycle indicator light lets you know what stage of the wash cycle your dishes are in, so you’ll know when they’re done. Also available in fingerprint-resistant stainless steel.",
+                        link: "http://www.maytag.ca/en_CA/Kitchen-1/Kitchen_Dishwashers_and_Kitchen_Cleaning_Dishwashers-3/102290003+4294965924/",
                         id: "top-controls",
                         ctaText: "Learn More",
                         ctaBackground: "./public/images/button-background.png",
@@ -212,8 +213,8 @@ export class AppDataService {
 						thumb: "./public/images/products/top_controls_wph-small.jpg",
                         title: "Top Controls with<br/>Pocket Handle",
                         alt: "Top Controls with Pocket Handle",
-                        desc: "Controls are hidden at the top for a sleek design finish that looks great in any kitchen. The Pocket Handle provides a more traditional style handle that allows for simple, easy access to your dishes. Also available in fingerprint resistant stainless steel.",
-                        link: "#",
+                        desc: "Controls are hidden at the top for a sleek design finish that looks great in any kitchen. The Pocket Handle provides a more traditional style handle that allows for simple, easy access to your dishes. Also available in fingerprint-resistant stainless steel.",
+                        link: "http://www.maytag.ca/en_CA/Kitchen-1/Kitchen_Dishwashers_and_Kitchen_Cleaning_Dishwashers-3/102290003+4294965924/",
                         id: "top-controls-pocket-handle",
                         ctaText: "Learn More",
                         ctaBackground: "./public/images/button-background.png",
@@ -229,8 +230,8 @@ export class AppDataService {
 						thumb: "./public/images/products/front_controls-small.jpg",
                         title: "Front<br/>Controls",
                         alt: "Front Controls",
-                        desc: "This traditional style is designed with controls on the front, with a seamless picket handle that fits in any home. The end-of-cycle countdown keeps track of the time remaining in the wash cycle so you know the precise time before your dishes are sparkling again.",
-                        link: "#",
+                        desc: "This traditional style is designed with controls on the front, with a seamless pocket handle that fits in any home. The end-of-cycle countdown keeps track of the time remaining in the wash cycle so you know the precise time before your dishes are sparkling again.",
+                        link: "http://www.maytag.ca/en_CA/Kitchen-1/Kitchen_Dishwashers_and_Kitchen_Cleaning_Dishwashers-3/102290003+4294965910/",
                         id: "front-controls",
                         ctaText: "Learn More",
                         ctaBackground: "./public/images/button-background.png",
@@ -241,6 +242,12 @@ export class AppDataService {
 							learnMore: 'Learn More'
 						}
                     }
+				]
+			},
+			legal: {
+				enabled: true,
+				text: [
+					'<sup>*</sup>Among leading brands'
 				]
 			}
 		}
@@ -457,6 +464,12 @@ export class AppDataService {
 							learnMore: 'Learn More'
 						}
                     }
+				]
+			},
+			legal: {
+				enabled: true,
+				text: [
+					'<sup>*</sup>Among leading brands'
 				]
 			}
 		}

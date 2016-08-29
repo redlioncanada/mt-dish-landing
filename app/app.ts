@@ -20,6 +20,7 @@ import {MoreFeatures} from './landing.morefeatures'
 import {Banner} from './landing.banner'
 import {Header} from './landing.header'
 import {Footer} from './landing.footer'
+import {Legal} from './landing.legal'
 
 
 @Component({
@@ -30,9 +31,10 @@ import {Footer} from './landing.footer'
 		<product-selector class="{{language}}"></product-selector>
 		<videoplayer class="{{language}}"></videoplayer>
 		<more-features class="{{language}}"></more-features>
+        <legal class="{{language}}"></legal>
 		<!-- <banner class="{{language}}"></banner> -->
     `,
-    directives: [VideoPlayer, AppMasthead, Features, ProductSelector, Banner, MoreFeatures, Header, Footer]
+    directives: [VideoPlayer, AppMasthead, Features, ProductSelector, Banner, MoreFeatures, Header, Footer, Legal]
 })
 class AppComponent {
 	public language: string;
@@ -45,7 +47,7 @@ class AppComponent {
     		return window.location.href.indexOf('fr_CA/') > -1 ? 'FR' : 'EN'
     	})
         analytics.bind('category', function(str) {
-            return 'Laundry LP'
+            return 'Dish LP'
         })
 
         breakpoint.add('mobile', 480)

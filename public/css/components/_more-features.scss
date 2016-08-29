@@ -7,6 +7,7 @@ more-features {
 		@include header-text;
 		margin: 32px 0;
 		line-height: 34px;
+
         @media screen and (max-width: 685px) {
             font-size: 2em;
             margin: 6px 0 15px 0;
@@ -15,6 +16,14 @@ more-features {
         @media(max-width: $mobileBreakpoint) {
         	font-size: 2em;
         }
+	}
+
+	div, p {
+		cursor: default;
+	}
+
+	a {
+		cursor: pointer;
 	}
 
 	more-features-feature {
@@ -33,6 +42,10 @@ more-features {
 more-features-feature {
 	width: 33.33333333333%;
 	float: left;
+
+	a > div * {
+		cursor: pointer;
+	}
 
 	.hover {
 		position: relative;
