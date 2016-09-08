@@ -61,7 +61,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     type: "cart",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Laundry Resources",
+                                        action: "Clicked Dish Resources",
                                         label: "Buying Guide"
                                     }
                                 },
@@ -76,7 +76,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     type: "star",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Laundry Resources",
+                                        action: "Clicked Dish Resources",
                                         label: "Ratings and Reviews"
                                     }
                                 },
@@ -91,7 +91,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     type: "magnifier",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Laundry Resources",
+                                        action: "Clicked Dish Resources",
                                         label: "Find Your MT"
                                     }
                                 }
@@ -110,7 +110,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     cta: "",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Get More From Your Laundry",
+                                        action: "Clicked Get More From Your Dish",
                                         label: "Vibration Control Guarantee"
                                     }
                                 },
@@ -123,7 +123,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     cta: "",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Get More From Your Laundry",
+                                        action: "Clicked Get More From Your Dish",
                                         label: "10-Year Warranty"
                                     }
                                 },
@@ -136,7 +136,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     cta: "",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Get More From Your Laundry",
+                                        action: "Clicked Get More From Your Dish",
                                         label: "Additional Accessories"
                                     }
                                 }
@@ -158,7 +158,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
-                                        label: "Power Wash"
+                                        label: "Inside Matters Video"
                                     }
                                 },
                                 {
@@ -173,7 +173,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
-                                        label: "Optimal Dose Dispenser"
+                                        label: "PowerBlast Video"
                                     }
                                 },
                                 {
@@ -188,7 +188,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
-                                        label: "Washers & Dryers"
+                                        label: "Stainless Steel Video"
                                     }
                                 }
                             ]
@@ -202,7 +202,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 analytics: {
                                     category: "@category",
                                     action: "Clicked Laudry Configuration",
-                                    label: "See all Laundry"
+                                    label: "See all Dish"
                                 }
                             },
                             products: [
@@ -218,7 +218,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Laundry Configuration",
+                                        action: "Clicked Dish Configuration",
                                         label: "High Efficiency Top-Load",
                                         learnMore: 'Learn More'
                                     }
@@ -235,7 +235,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Laundry Configuration",
+                                        action: "Clicked Dish Configuration",
                                         label: "High Efficiency Front-Load",
                                         learnMore: 'Learn More'
                                     }
@@ -252,7 +252,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Laundry Configuration",
+                                        action: "Clicked Dish Configuration",
                                         label: "High Efficiency Front-Load",
                                         learnMore: 'Learn More'
                                     }
@@ -271,7 +271,7 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                             enabled: true,
                             image: "./public/images/refer-landing-masthead-1-fr.jpg",
                             alt: "test",
-                            title: "Laveuses et sécheuses"
+                            title: "Lave-Vaisselle"
                         },
                         banner: {
                             enabled: true,
@@ -295,11 +295,11 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     desc: "Éléments à considérer lorsque vous magasinez",
                                     ctaText: "Cliquez ici",
                                     ctaBackground: "./public/images/button-background.png",
-                                    link: "/other-assets/en_CA/pdf/MT-Laundry-Buying_Guide_FR.pdf",
+                                    link: "/other-assets/en_CA/pdf/MT-Dish-Buying_Guide_FR.pdf",
                                     type: "cart",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Laundry Resources",
+                                        action: "Clicked Dish Resources",
                                         label: "Buying Guide"
                                     }
                                 },
@@ -314,22 +314,22 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     type: "star",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Laundry Resources",
+                                        action: "Clicked Dish Resources",
                                         label: "Ratings and Reviews"
                                     }
                                 },
                                 {
                                     image: "./public/images/refer-landing-mag-glass.png",
-                                    title: "Trouvez votre électroménager Maytag",
+                                    title: "Trouvez votre lave-vaisselle Maytag",
                                     alt: "test",
                                     desc: "Vous avez besoin d'aide pour trouver votre duo de lessive?",
                                     ctaText: "Cliquez ici",
                                     ctaBackground: "./public/images/button-background.png",
-                                    link: "http://trouvermon.maytag.ca",
+                                    link: "http://trouvermon.maytag.ca/#/?category=Dishwashers",
                                     type: "magnifier",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Laundry Resources",
+                                        action: "Clicked Dish Resources",
                                         label: "Find Your MT"
                                     }
                                 }
@@ -337,14 +337,14 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                         },
                         morefeatures: {
                             enabled: true,
-                            title: "Autres avantages des duos de lessive Maytag<sup>&reg;</sup>",
+                            title: "Tirez le meilleur parti des lave-vaisselle Maytag<sup>&reg;</sup>",
                             features: [
                                 {
-                                    title: "Garantie de contrôle des vibrations",
+                                    title: "Acier inoxydable résistant aux traces de doigt",
                                     image: "./public/images/more-features-2-fr.jpg",
-                                    link: "http://www.maytag.ca/other-assets/fr_CA/pdf/2016_Maytag_VIBRATION_FREE_LIMITED%20GUARANTEE_FR.pdf",
+                                    link: "",
                                     alt: "test",
-                                    text: "Chez Maytag nous nous ne contentons pas de parler de fiabilité – nous l'appuyons.",
+                                    text: "",
                                     cta: "",
                                     analytics: {
                                         category: "@category",
@@ -353,11 +353,11 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    title: "Garantie de 10 ans",
+                                    title: "Le moteur le plus puissant",
                                     image: "./public/images/more-features-1-fr.jpg",
-                                    link: "http://www.maytag.ca/fr_CA/2_3_147/jump-page_ten-year-warranty.content.html",
+                                    link: "",
                                     alt: "test",
-                                    text: "Nous sommes tellement convaincus de la fiabilité des duos de lessive Maytag pour se charger de vos brassées pendant des années que nous les avons accompagnés d'une garantie limitée de 10 ans sur les pièces du moteur à entraînement, du panier de lavage en acier inoxydable et du tambour de la sécheuse. Visitez maytag.ca pour les détails de la garantie.",
+                                    text: "",
                                     cta: "",
                                     analytics: {
                                         category: "@category",
@@ -366,9 +366,9 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                     }
                                 },
                                 {
-                                    title: "Accessoires supplémentaires",
+                                    title: "Séchage PowerDry",
                                     image: "./public/images/more-features-3.jpg",
-                                    link: "http://www.maytag.ca/fr_CA/Laundry-1/Laundry_Laundry_Appliances_Laundry_Pedestals-3/102290063/",
+                                    link: "",
                                     alt: "test",
                                     text: "",
                                     cta: "",
@@ -387,94 +387,111 @@ System.register(['angular2/core', './logger.service'], function(exports_1, conte
                                 {
                                     image: './public/images/video-thumb-1.jpg',
                                     thumb: './public/images/video-select-1.jpg',
-                                    title: 'Système PowerWash<sup>&reg;</sup> de Maytag<sup>&reg;</sup>',
+                                    title: 'Lave-vaisselle Maytag – C’est ce qui est à l’intérieur qui compte',
                                     alt: "test",
-                                    ctaTitle: 'Système PowerWash<sup>&reg;</sup> de Maytag<sup>&reg;</sup>',
+                                    ctaTitle: 'Lave-vaisselle Maytag – C’est ce qui est à l’intérieur qui compte',
                                     ctaText: 'Voir',
                                     ctaBackground: "./public/images/button-background.png",
-                                    desc: "Le système PowerWash<sup>&reg;</sup> de Maytag<sup>&reg;</sup> utilise trois fonctions pour vous offrir un excellent nettoyage. Les distributeurs optimaux et le système Power Spray libèrent le détergent automatiquement et au bon moment, procurant aux vêtements un traitement concentré pour venir à bout des taches tenaces. Le programme PowerWash<sup>&reg;</sup> utilise une action de nettoyage supplémentaire pour combattre vos taches en un seul lavage.",
+                                    desc: "Chaque assiette que vous placez dans votre lave-vaisselle compte. C’est la raison pour laquelle chaque pièce de fabrication des lave-vaisselle Maytag<sup>&reg;</sup> est importante. Ces derniers sont conçus aux États-Unis, avec des matériaux durables, des pièces fiables et une performance de pointe.",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
-                                        label: "Maytag Man Video"
+                                        label: "Inside Matters Video"
                                     }
                                 },
                                 {
                                     image: './public/images/video-thumb-2.jpg',
                                     thumb: './public/images/video-select-2.jpg',
-                                    title: 'Appareils de lessive Maytag<sup>&reg;</sup>  - Distributeur de dose optimale',
+                                    title: 'Lave-vaisselle Maytag – Programme PowerBlast<sup>&trade;</sup>',
                                     alt: "test",
-                                    ctaTitle: 'Appareils de lessive Maytag<sup>&reg;</sup>  - Distributeur de dose optimale',
+                                    ctaTitle: 'Lave-vaisselle Maytag – Programme PowerBlast<sup>&trade;</sup>',
                                     ctaText: 'Voir',
                                     ctaBackground: "./public/images/button-background.png",
-                                    desc: "Élimine les approximations associées à la lessive. Le distributeur de dose optimale Maytag ajoute automatiquement la quantité exacte de détergent pour un nettoyage efficace. Étant donné qu'il peut contenir  suffisamment de détergent haute efficacité pour laver jusqu’à 12 brassées de lessive, vous n'avez plus besoin d'ajouter du détergent avant chaque lavage*. *D'après une brassée de 8 lb.",
+                                    desc: "Le programme PowerBlast<sup>&trade;</sup> de Maytag<sup>&reg;</sup> nettoie efficacement tout ce que vous y mettez, de vos casseroles les plus souillées à vos verres favoris. Le programme PowerBlast<sup>&trade;</sup> utilise d’abord des jets à haute pression afin de retirer les aliments collés et incrustés. Puis il termine avec de la vapeur chaude afin que vos assiettes ressortent étincelantes, comme vous les aimez.",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
-                                        label: "Power Pre-Heat Video"
+                                        label: "PowerBlast Video"
                                     }
                                 },
                                 {
-                                    id: 'KEkbdgfZ87k',
+                                    id: '',
                                     thumb: './public/images/video-select-3.jpg',
-                                    title: 'Laissez Maytag se charger de toutes vos affaires',
+                                    title: 'Lave-vaisselle Maytag – Broyeur en acier inoxydable',
                                     alt: "test",
-                                    ctaTitle: 'Laissez Maytag se charger de toutes vos affaires',
+                                    ctaTitle: 'Lave-vaisselle Maytag – Broyeur en acier inoxydable',
                                     ctaText: 'Voir',
                                     ctaBackground: "./public/images/button-background.png",
-                                    desc: "La combinaison des laveuses et sécheuses Maytag offre à vos vêtements un nettoyage impeccable.",
+                                    desc: "Plus besoin de récurer, vous pouvez mettre vos assiettes directement dans le lave-vaisselle. Le broyeur en acier inoxydable Maytag<sup>&reg;</sup> à 4 lames est suffisamment puissant pour pulvériser les aliments collés. Il désintègre les particules alimentaires qui se détachent de votre vaisselle, leur évitant ainsi de recirculer et de s’y recoller. Grâce à ce système sans filtre, aucun nettoyage n’est nécessaire après le lavage.",
                                     analytics: {
                                         category: "@category",
                                         action: "Clicked Built Better",
-                                        label: "Evenair Video"
+                                        label: "Stainless Steel Video"
                                     }
                                 }
                             ]
                         },
                         productselector: {
                             enabled: true,
-                            title: 'Construit pour nettoyer vos brassées difficiles, offert en 2 puissantes configurations',
+                            title: 'Des options de lavage sur lesquelles vous pouvez compter.',
                             nav: {
-                                text: 'Tout<br/>Voir',
-                                link: 'http://www.maytag.ca/fr_CA/Laundry-1/Laundry_Laundry_Appliances_Washers-3/102290050/',
+                                text: 'Tout<br/>voir',
+                                link: '#',
                                 analytics: {
                                     category: "@category",
-                                    action: "Clicked Choose Your Cooking Configuration",
-                                    label: "See all Laundry"
+                                    action: "Clicked Laudry Configuration",
+                                    label: "See all Dish"
                                 }
                             },
                             products: [
                                 {
-                                    image: "./public/images/products/top_load.png",
-                                    thumb: "./public/images/products/top_load-small.png",
-                                    title: "Haute efficacité à chargement vertical",
-                                    alt: "Haute efficacité à chargement vertical",
-                                    desc: "Vous recherchez une performance optimale? Cette laveuse de style traditionnel a fait l'objet de nombreuses améliorations, offrant aujourd'hui le meilleur nettoyage de l'industrie, optimisé par le système PowerWash<sup>&reg;</sup>! Offerts en capacités moyennes à mégas, jusqu'à 7,1 pi<sup>3</sup> du C.E.I., les duos de lessive à chargement vertical haute efficacité vous permettent d'effectuer davantage de lessive en une seule fois. Recherchez également nos laveuses et sécheuses homologuées ENERGY STAR<sup>&reg;</sup> pour réduire votre consommation d'eau et d'énergie au cours de leur durée de vie - tout en vous assurant un nettoyage optimal pour tout type de brassée.",
-                                    link: "http://www.maytag.ca/fr_CA/Laundry-1/Laundry_Laundry_Appliances_Washers-3/102290050+4294965994/",
-                                    id: "top-load",
+                                    image: "./public/images/products/top_controls.jpg",
+                                    thumb: "./public/images/products/top_controls-small.jpg",
+                                    title: "Commandes<br/>dissimulées",
+                                    alt: "Commandes dissimulées",
+                                    desc: "Les commandes discrètement placées sur le haut du lave-vaisselle lui donnent une allure de gamme supérieure et la poignée robuste offre une apparence et un toucher professionnel qui mettra en valeur toute cuisine. Le voyant lumineux de fin de programme vous indique également la progression du lavage de votre vaisselle. Ce modèle est également offert en acier inoxydable résistant aux traces de doigts.",
+                                    link: "#",
+                                    id: "top-controls",
                                     ctaText: "En savoir plus",
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Choose Your Laundry Configuration",
-                                        label: "Front Control",
+                                        action: "Clicked Dish Configuration",
+                                        label: "High Efficiency Top-Load",
                                         learnMore: 'Learn More'
                                     }
                                 },
                                 {
-                                    image: "./public/images/products/front_load.png",
-                                    thumb: "./public/images/products/front_load-small.png",
-                                    title: "Haute efficacité à chargement frontal",
-                                    alt: "Haute efficacité à chargement frontal",
-                                    desc: "Ce style contemporain permet d'économiser de l'espace tout en procurant le meilleur nettoyage de sa catégorie, optimisé par le système PowerWash<sup>&reg;</sup>*. Grâce à des trousses de superposition facultatives et un contrôle perfectionné des vibrations Advanced Vibration Control<sup>&trade;</sup>, cette configuration permet une installation dans des espaces restreints, avec un fonctionnement silencieux. Homologuées ENERGY STAR<sup>&reg;</sup>, les laveuses et sécheuses à chargement frontal à haute efficacité vous permettent de réaliser des économies d’eau et énergie tout en vous assurant un nettoyage optimal.",
-                                    link: "http://www.maytag.ca/fr_CA/Laundry-1/Laundry_Laundry_Appliances_Washers-3/102290050+4294965998/",
-                                    id: "front-load",
+                                    image: "./public/images/products/top_controls_wph.jpg",
+                                    thumb: "./public/images/products/top_controls_wph-small.jpg",
+                                    title: "Commandes dissimulées avec<br/>poignée encastrée",
+                                    alt: "Commandes dissimulées avec poignée encastrée",
+                                    desc: "Les commandes sont discrètement placées sur le haut du lave-vaisselle, offrant un style élégant à toute cuisine. La poignée encastrée d’un style plus traditionnel permet un accès facile et pratique à vos assiettes. Ce modèle est également offert en acier inoxydable résistant aux traces de doigts.",
+                                    link: "#",
+                                    id: "top-controls-pocket-handle",
                                     ctaText: "En savoir plus",
                                     ctaBackground: "./public/images/button-background.png",
                                     analytics: {
                                         category: "@category",
-                                        action: "Clicked Choose Your Laundry Configuration",
-                                        label: "Rear Control",
+                                        action: "Clicked Dish Configuration",
+                                        label: "High Efficiency Front-Load",
+                                        learnMore: 'Learn More'
+                                    }
+                                },
+                                {
+                                    image: "./public/images/products/front_controls.jpg",
+                                    thumb: "./public/images/products/front_controls-small.jpg",
+                                    title: "Commandes<br/>frontales",
+                                    alt: "Commandes frontales",
+                                    desc: "Ce modèle de style traditionnel est conçu avec des commandes sur le devant et une poignée encastrée discrète, s’harmonisant parfaitement dans toute cuisine. Le compte à rebours du programme indique précisément lorsque votre vaisselle est prête.",
+                                    link: "#",
+                                    id: "front-controls",
+                                    ctaText: "En savoir plus",
+                                    ctaBackground: "./public/images/button-background.png",
+                                    analytics: {
+                                        category: "@category",
+                                        action: "Clicked Dish Configuration",
+                                        label: "High Efficiency Front-Load",
                                         learnMore: 'Learn More'
                                     }
                                 }
