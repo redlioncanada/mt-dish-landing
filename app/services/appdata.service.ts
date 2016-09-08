@@ -115,7 +115,7 @@ export class AppDataService {
 					{
 						title: "PowerDry",
 						image: "./public/images/more-features-3.jpg",
-						link: "http://www.maytag.ca/en_CA/Kitchen-1/Kitchen_Dishwashers_and_Kitchen_Cleaning_Dishwashers-3/102290003+112290195/",
+						link: "http://www.maytag.ca/en_CA/Kitchen-1/Kitchen_Dishwashers_and_Kitchen_Cleaning_Dishwashers-3/102290003+112290195+112290191/",
 						alt: "test",
 						text: "The PowerDry option reduces humidity inside the dishwasher, increasing drying power, making this our best drying dishwasher ever.",
 						cta: "",
