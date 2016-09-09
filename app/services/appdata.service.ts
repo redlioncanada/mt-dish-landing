@@ -42,7 +42,7 @@ export class AppDataService {
 						desc: "What to look for when buying",
 						ctaText: "Click Here",
 						ctaBackground: "./public/images/button-background.png",
-						link: "#",
+						link: "/other-assets/en_CA/pdf/MT-DishBuyingGuide-EN.pdf",
 						type: "cart",
 						analytics: {
 							category: "@category",
@@ -115,7 +115,7 @@ export class AppDataService {
 					{
 						title: "PowerDry",
 						image: "./public/images/more-features-3.jpg",
-						link: "http://www.maytag.ca/en_CA/Kitchen-1/Kitchen_Dishwashers_and_Kitchen_Cleaning_Dishwashers-3/102290003+112290195+112290191/",
+						link: "",
 						alt: "test",
 						text: "The PowerDry option reduces humidity inside the dishwasher, increasing drying power, making this our best drying dishwasher ever.",
 						cta: "",
@@ -273,6 +273,7 @@ export class AppDataService {
 			},
 			features: {
 				enabled: true,
+				title: "Commencez ici",
 				features: [
 					{
 						image: "./public/images/refer-landing-shopping-cart.png",
@@ -281,7 +282,7 @@ export class AppDataService {
 						desc: "Éléments à considérer lorsque vous magasinez",
 						ctaText: "Cliquez ici",
 						ctaBackground: "./public/images/button-background.png",
-						link: "/other-assets/en_CA/pdf/MT-Dish-Buying_Guide_FR.pdf",
+						link: "/other-assets/en_CA/pdf/MT-DishBuyingGuide-FR.pdf",
 						type: "cart",
 						analytics: {
 							category: "@category",
@@ -330,7 +331,7 @@ export class AppDataService {
 						image: "./public/images/more-features-2-fr.jpg",
 						link: "",
 						alt: "test",
-						text: "",
+						text: "L’extérieur en acier inoxydable résistant aux traces de doigts fait que votre lave-vaisselle est aussi beau à l'extérieur qu'il est fonctionnel à l'intérieur.",
 						cta: "",
 						analytics: {
 							category: "@category",
@@ -343,7 +344,7 @@ export class AppDataService {
 						image: "./public/images/more-features-1-fr.jpg",
 						link: "",
 						alt: "test",
-						text: "",
+						text: "Les lave-vaisselle Maytag<sup>&reg;</sup> sont dotés du moteur le plus puissant sur le marché*. Des jaunes d'œufs collés au beurre d’arachides, ce moteur se charge de vos assiettes les plus sales. ",
 						cta: "",
 						analytics: {
 							category: "@category",
@@ -356,7 +357,7 @@ export class AppDataService {
 						image: "./public/images/more-features-3.jpg",
 						link: "",
 						alt: "test",
-						text: "",
+						text: "L’option PowerDry réduit l’humidité à l’intérier du lave-vaisselle et utilise une puissance de séchage accrue, pour une excellente efficacité de séchage dans votre lave-vaisselle.",
 						cta: "",
 						analytics: {
 							category: "@category",
@@ -436,7 +437,7 @@ export class AppDataService {
                         title: "Commandes<br/>dissimulées",
                         alt: "Commandes dissimulées",
                         desc: "Les commandes discrètement placées sur le haut du lave-vaisselle lui donnent une allure de gamme supérieure et la poignée robuste offre une apparence et un toucher professionnel qui mettra en valeur toute cuisine. Le voyant lumineux de fin de programme vous indique également la progression du lavage de votre vaisselle. Ce modèle est également offert en acier inoxydable résistant aux traces de doigts.",
-                        link: "#",
+                        link: "http://www.maytag.ca/fr_CA/Kitchen-1/Kitchen_Dishwashers_and_Kitchen_Cleaning_Dishwashers-3/102290003+4294965996/",
                         id: "top-controls",
                         ctaText: "En savoir plus",
                         ctaBackground: "./public/images/button-background.png",
@@ -453,7 +454,7 @@ export class AppDataService {
                         title: "Commandes dissimulées avec<br/>poignée encastrée",
                         alt: "Commandes dissimulées avec poignée encastrée",
                         desc: "Les commandes sont discrètement placées sur le haut du lave-vaisselle, offrant un style élégant à toute cuisine. La poignée encastrée d’un style plus traditionnel permet un accès facile et pratique à vos assiettes. Ce modèle est également offert en acier inoxydable résistant aux traces de doigts.",
-                        link: "#",
+                        link: "http://www.maytag.ca/fr_CA/Kitchen-1/Kitchen_Dishwashers_and_Kitchen_Cleaning_Dishwashers-3/102290003+4294965996/",
                         id: "top-controls-pocket-handle",
                         ctaText: "En savoir plus",
                         ctaBackground: "./public/images/button-background.png",
@@ -470,7 +471,7 @@ export class AppDataService {
                         title: "Commandes<br/>frontales",
                         alt: "Commandes frontales",
                         desc: "Ce modèle de style traditionnel est conçu avec des commandes sur le devant et une poignée encastrée discrète, s’harmonisant parfaitement dans toute cuisine. Le compte à rebours du programme indique précisément lorsque votre vaisselle est prête.",
-                        link: "#",
+                        link: "http://www.maytag.ca/fr_CA/Kitchen-1/Kitchen_Dishwashers_and_Kitchen_Cleaning_Dishwashers-3/102290003+4294965995/",
                         id: "front-controls",
                         ctaText: "En savoir plus",
                         ctaBackground: "./public/images/button-background.png",
@@ -486,7 +487,7 @@ export class AppDataService {
 			legal: {
 				enabled: true,
 				text: [
-					'<sup>*</sup>Among leading brands'
+					'<sup>*</sup>Parmi les marques dominantes'
 				]
 			}
 		}

@@ -610,10 +610,6 @@ rl-mt-dish-landing {
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease; }
-    rl-mt-dish-landing features .row feature-button:first-child {
-      display: none; }
-    rl-mt-dish-landing features .row feature-button {
-      width: 50%; }
     rl-mt-dish-landing features h2 {
       color: #002e5a !important;
       font-size: 3em;
